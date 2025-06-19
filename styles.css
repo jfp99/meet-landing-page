@@ -359,6 +359,9 @@ display: flex;
 flex-wrap: wrap;
 justify-content: center;
 }
+.button--light:nth-child(1) {
+   color: var(--cyan-600);
+}
 
 
 
@@ -405,4 +408,5 @@ text-align: left;
 
 .footer::before {
 background-image: url('./starter-code/assets/desktop/image-footer.jpg');
+}
 }
