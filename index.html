@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Experience seamless group video meetings with Meet - the modern video conferencing solution for teams">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <title>Meet | Modern Group Video Meetings</title>
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="/" aria-current="page">
+          <img src="./starter-code/assets/logo.svg" alt="Meet" width="120" height="32" loading="lazy">
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="hero__grid container">
+        <div class="hero__images">
+          <picture class="hero__image hero__image--left">
+            <source media="(min-width: 1024px)" srcset="./starter-code/assets/desktop/image-hero-left.png">
+            <img src="./starter-code/assets/tablet/image-hero.png" alt="" width="375" height="331" loading="eager">
+          </picture>
+          
+        </div>
+
+        <div class="hero__content">
+          <h1 id="hero-heading" class="hero__title">Group Chat <br>for Everyone</h1>
+          <p class="hero__text">Meet makes it easy to connect with others face-to-face virtually and collaborate across any device.</p>
+          <div class="hero__buttons">
+            <button type="button" class="button button--primary">
+              <span>Download</span>
+              <span aria-hidden="true">v1.3</span>
+              <span class="sr-only">version 1.3</span
+            </button>
+            <button type="button" class="button button--secondary">What is it?</button>
+          </div>
+        </div>
+
+        <picture class="hero__image hero__image--right">
+            <source media="(min-width: 1024px)" srcset="./starter-code/assets/desktop/image-hero-right.png">
+            <img src="" alt="" aria-hidden="true" loading="lazy">
+          </picture>
+      </div>
+    </section>
+
+    <div class="divider container">
+      <span class="divider__line" aria-hidden="true"></span>
+      <span class="divider__badge">01</span>
+    </div>
+
+    <section class="features" aria-labelledby="features-heading">
+      <div class="container">
+        <div class="features__gallery">
+          <figure class="features__image">
+            <img src="./starter-code/assets/desktop/image-woman-in-videocall.jpg" alt="Woman smiling during video call" width="255" height="242" loading="lazy">
+          </figure>
+          <figure class="features__image">
+            <img src="./starter-code/assets/desktop/image-women-videochatting.jpg" alt="Women video chatting on mobile" width="255" height="242" loading="lazy">
+          </figure>
+          <figure class="features__image">
+            <img src="./starter-code/assets/desktop/image-men-in-meeting.jpg" alt="Men discussing in a meeting" width="255" height="242" loading="lazy">
+          </figure>
+          <figure class="features__image">
+            <img src="./starter-code/assets/desktop/image-man-texting.jpg" alt="Man texting on his phone" width="255" height="242" loading="lazy">
+          </figure>
+        </div>
+
+        <div class="features__content">
+          <p class="overline">Built for modern use</p>
+          <h2 id="features-heading" class="features__title">Smarter meetings, all in one place</h2>
+          <p class="features__text">Send messages, share files, show your screen, and record your meetings — all in one workspace. Control who can join with invite-only team access, data encryption, and data export.</p>
+        </div>
+        <div class="divider divider--light container">
+          <span class="divider__line" aria-hidden="true"></span>
+          <span class="divider__badge">02</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__content">
+      <div class="container">
+        <h2 class="footer__title">Experience more together</h2>
+        <p class="footer__text">Stay connected with reliable HD meetings and unlimited one-on-one and group video sessions.</p>
+        <button type="button" class="button button--secondary button--light">
+          <span>Download</span>
+          <span aria-hidden="true">v1.3</span>
+          <span class="sr-only">version 1.3</span>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Hidden accessibility elements -->
+  <div class="sr-only" aria-live="polite"></div>
+</body>
+</html>
